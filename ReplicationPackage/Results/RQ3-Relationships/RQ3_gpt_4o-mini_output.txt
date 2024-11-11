@@ -1,0 +1,678 @@
+==== Image: UCD023.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Tour Guide
+- **Target Element:** Group Check-In
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Passenger
+- **Target Element:** Individual Check-In
+
+### Relationship 3
+- **Type of Relationship:** Include
+- **Source Element:** Group Check-In
+- **Target Element:** Individual Check-In
+
+### Relationship 4
+- **Type of Relationship:** Extend
+- **Source Element:** Individual Check-In
+- **Target Element:** Baggage Check-In
+
+### Relationship 5
+- **Type of Relationship:** Association
+- **Source Element:** Individual Check-In
+- **Target Element:** Security Screening
+
+This structured format captures the relationships accurately as per the UML Use Case Diagram provided.
+
+==================================================
+
+==== Image: UCD024.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Software Process Group
+- **Target Element:** Personalize Page
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Software Process Group
+- **Target Element:** Set member group
+
+### Relationship 3
+- **Type of Relationship:** Association
+- **Source Element:** Software Process Group
+- **Target Element:** Set Asset Protection
+
+### Relationship 4
+- **Type of Relationship:** Association
+- **Source Element:** Software Process Group
+- **Target Element:** Change Process Owner
+
+### Relationship 5
+- **Type of Relationship:** Association
+- **Source Element:** User
+- **Target Element:** Personalize Page
+
+### Relationship 6
+- **Type of Relationship:** Association
+- **Source Element:** User
+- **Target Element:** Set member group
+
+### Relationship 7
+- **Type of Relationship:** Association
+- **Source Element:** User
+- **Target Element:** Set Asset Protection
+
+### Relationship 8
+- **Type of Relationship:** Association
+- **Source Element:** User
+- **Target Element:** Change Process Owner
+
+### Relationship 9
+- **Type of Relationship:** Generalization
+- **Source Element:** Process Owner
+- **Target Element:** Software Process Group
+
+This structured format captures all the relationships present in the diagram accurately.
+
+==================================================
+
+==== Image: UCD033.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Customer (Actor)
+- **Target Element:** Open Account (Use Case)
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Customer (Actor)
+- **Target Element:** Deposit Funds (Use Case)
+
+### Relationship 3
+- **Type of Relationship:** Association
+- **Source Element:** Customer (Actor)
+- **Target Element:** Withdraw Funds (Use Case)
+
+### Relationship 4
+- **Type of Relationship:** Association
+- **Source Element:** Customer (Actor)
+- **Target Element:** Close Account (Use Case)
+
+==================================================
+
+==== Image: UCD034.png ====
+Here is the relationship identified in the UML Use Case Diagram:
+
+1. **Relationship:**
+   - **Type of Relationship:** Association
+   - **Source Element:** Actor1
+   - **Target Element:** Change User Specification
+
+==================================================
+
+==== Image: UCD035.png ====
+Based on the UML Use Case Diagram provided, here are the identified relationships:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Actor1
+- **Target Element:** Change User Password
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Actor1
+- **Target Element:** Grant Access
+
+### Relationship 3
+- **Type of Relationship:** Association
+- **Source Element:** Actor1
+- **Target Element:** Deny Access
+
+### Relationship 4
+- **Type of Relationship:** Association
+- **Source Element:** Actor1
+- **Target Element:** Change User Last Name
+
+Each relationship indicates that Actor1 interacts with the respective use cases.
+
+==================================================
+
+==== Image: UCD052.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Check-In Representative
+- **Target Element:** Check-In
+
+### Relationship 2
+- **Type of Relationship:** Include
+- **Source Element:** Check-In
+- **Target Element:** Issuing Boarding Pass
+
+### Relationship 3
+- **Type of Relationship:** Include
+- **Source Element:** Check-In
+- **Target Element:** Automated Check-In
+
+### Relationship 4
+- **Type of Relationship:** Include
+- **Source Element:** Check-In
+- **Target Element:** Express Check-In
+
+### Relationship 5
+- **Type of Relationship:** Association
+- **Source Element:** Passenger
+- **Target Element:** Check-In
+
+This structured format captures all the relationships present in the diagram accurately.
+
+==================================================
+
+==== Image: UCD053.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Check-In Representative
+- **Target Element:** Check-In
+
+### Relationship 2
+- **Type of Relationship:** Include
+- **Source Element:** Check-In
+- **Target Element:** Automated Check-In
+
+### Relationship 3
+- **Type of Relationship:** Include
+- **Source Element:** Check-In
+- **Target Element:** Express Check-In
+
+### Relationship 4
+- **Type of Relationship:** Include
+- **Source Element:** Check-In
+- **Target Element:** Boarding
+
+### Relationship 5
+- **Type of Relationship:** Association
+- **Source Element:** Passenger
+- **Target Element:** Boarding
+
+This structured format outlines the relationships clearly and accurately.
+
+==================================================
+
+==== Image: UCD054.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Check-In Representative
+- **Target Element:** Check-In
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Passenger
+- **Target Element:** Automated Check-In
+
+### Relationship 3
+- **Type of Relationship:** Association
+- **Source Element:** Passenger
+- **Target Element:** Express Check-In
+
+### Relationship 4
+- **Type of Relationship:** Association
+- **Source Element:** Passenger
+- **Target Element:** Boarding
+
+### Relationship 5
+- **Type of Relationship:** Association
+- **Source Element:** Passenger
+- **Target Element:** Requesting Passenger List
+
+### Relationship 6
+- **Type of Relationship:** Association
+- **Source Element:** Customs of Destination Airport
+- **Target Element:** Requesting Passenger List
+
+### Relationship 7
+- **Type of Relationship:** Association
+- **Source Element:** Baggage Transportation
+- **Target Element:** Requesting Passenger List
+
+This structured format captures all the relationships present in the diagram accurately.
+
+==================================================
+
+==== Image: UCD055.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Check-In Representative
+- **Target Element:** Check-In
+
+### Relationship 2
+- **Type of Relationship:** Include
+- **Source Element:** Check-In
+- **Target Element:** Issuing Boarding Pass
+
+### Relationship 3
+- **Type of Relationship:** Include
+- **Source Element:** Check-In
+- **Target Element:** Automated Check-In
+
+### Relationship 4
+- **Type of Relationship:** Include
+- **Source Element:** Check-In
+- **Target Element:** Express Check-In
+
+### Relationship 5
+- **Type of Relationship:** Association
+- **Source Element:** Passenger
+- **Target Element:** Boarding
+
+### Relationship 6
+- **Type of Relationship:** Association
+- **Source Element:** Customs of Destination Airport
+- **Target Element:** Requesting Passenger List
+
+### Relationship 7
+- **Type of Relationship:** Association
+- **Source Element:** Baggage Transportation
+- **Target Element:** Passenger
+
+This structured format outlines the relationships clearly, specifying the type, source, and target for each identified relationship in the diagram.
+
+==================================================
+
+==== Image: UCD059.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Include
+- **Source Element:** Client
+- **Target Element:** Order food
+
+### Relationship 2
+- **Type of Relationship:** Include
+- **Source Element:** Waiter
+- **Target Element:** Serve food
+
+### Relationship 3
+- **Type of Relationship:** Extend
+- **Source Element:** Order food
+- **Target Element:** Order wine
+
+### Relationship 4
+- **Type of Relationship:** Include
+- **Source Element:** Chef
+- **Target Element:** Cook food
+
+### Relationship 5
+- **Type of Relationship:** Extend
+- **Source Element:** Serve food
+- **Target Element:** Serve wine
+
+### Relationship 6
+- **Type of Relationship:** Include
+- **Source Element:** Client
+- **Target Element:** Eat food
+
+### Relationship 7
+- **Type of Relationship:** Include
+- **Source Element:** Cashier
+- **Target Element:** Pay for food
+
+### Relationship 8
+- **Type of Relationship:** Extend
+- **Source Element:** Serve wine
+- **Target Element:** Drink wine
+
+### Relationship 9
+- **Type of Relationship:** Extend
+- **Source Element:** Eat food
+- **Target Element:** Drink wine
+
+### Relationship 10
+- **Type of Relationship:** Extend
+- **Source Element:** Pay for food
+- **Target Element:** Pay for wine
+
+### Relationship 11
+- **Type of Relationship:** Include
+- **Source Element:** Client
+- **Target Element:** Pay for food
+
+### Relationship 12
+- **Type of Relationship:** Include
+- **Source Element:** Cashier
+- **Target Element:** Accept payment
+
+This structured format captures all the relationships present in the diagram.
+
+==================================================
+
+==== Image: UCD065.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Include
+- **Source Element:** Running tool locally
+- **Target Element:** Show code recommendation
+
+### Relationship 2
+- **Type of Relationship:** Include
+- **Source Element:** Automatic feedback on commit
+- **Target Element:** Show code recommendation
+
+### Relationship 3
+- **Type of Relationship:** Include
+- **Source Element:** See improvements since last run
+- **Target Element:** Show code recommendation
+
+### Relationship 4
+- **Type of Relationship:** Include
+- **Source Element:** Badges showing score
+- **Target Element:** Show code recommendation
+
+### Relationship 5
+- **Type of Relationship:** Include
+- **Source Element:** Show code recommendation
+- **Target Element:** Checking if coding guidelines are followed
+
+### Relationship 6
+- **Type of Relationship:** Include
+- **Source Element:** Show code recommendation
+- **Target Element:** Coding style should follow framework standards
+
+### Relationship 7
+- **Type of Relationship:** Include
+- **Source Element:** Show code recommendation
+- **Target Element:** Coding style as suggestion
+
+### Relationship 8
+- **Type of Relationship:** Include
+- **Source Element:** CTO
+- **Target Element:** Define coding guidelines
+
+### Relationship 9
+- **Type of Relationship:** Include
+- **Source Element:** Define coding guidelines
+- **Target Element:** Code should not be kept
+
+This structured format captures all the relationships present in the diagram accurately.
+
+==================================================
+
+==== Image: UCD073.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** View Account Status
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** Open Account
+
+### Relationship 3
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** Update Customer Details
+
+### Relationship 4
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** View Account Details
+
+### Relationship 5
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** Close Account
+
+### Relationship 6
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** Apply for Credit Card
+
+### Relationship 7
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** Request Account Statement
+
+### Relationship 8
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** View Transaction History
+
+### Relationship 9
+- **Type of Relationship:** Association
+- **Source Element:** Bank Employee
+- **Target Element:** View Account Status
+
+### Relationship 10
+- **Type of Relationship:** Association
+- **Source Element:** Bank Employee
+- **Target Element:** Open Account
+
+### Relationship 11
+- **Type of Relationship:** Association
+- **Source Element:** Bank Employee
+- **Target Element:** Update Customer Details
+
+### Relationship 12
+- **Type of Relationship:** Association
+- **Source Element:** Bank Employee
+- **Target Element:** View Account Details
+
+### Relationship 13
+- **Type of Relationship:** Association
+- **Source Element:** Bank Employee
+- **Target Element:** Close Account
+
+### Relationship 14
+- **Type of Relationship:** Association
+- **Source Element:** Bank Employee
+- **Target Element:** Apply for Credit Card
+
+### Relationship 15
+- **Type of Relationship:** Association
+- **Source Element:** Bank Employee
+- **Target Element:** Request Account Statement
+
+### Relationship 16
+- **Type of Relationship:** Association
+- **Source Element:** Bank Employee
+- **Target Element:** View Transaction History
+
+### Relationship 17
+- **Type of Relationship:** Association
+- **Source Element:** Manager
+- **Target Element:** View Account Status
+
+### Relationship 18
+- **Type of Relationship:** Association
+- **Source Element:** Manager
+- **Target Element:** Open Account
+
+### Relationship 19
+- **Type of Relationship:** Association
+- **Source Element:** Manager
+- **Target Element:** Update Customer Details
+
+### Relationship 20
+- **Type of Relationship:** Association
+- **Source Element:** Manager
+- **Target Element:** View Account Details
+
+### Relationship 21
+- **Type of Relationship:** Association
+- **Source Element:** Manager
+- **Target Element:** Close Account
+
+### Relationship 22
+- **Type of Relationship:** Association
+- **Source Element:** Manager
+- **Target Element:** Apply for Credit Card
+
+### Relationship 23
+- **Type of Relationship:** Association
+- **Source Element:** Manager
+- **Target Element:** Request Account Statement
+
+### Relationship 24
+- **Type of Relationship:** Association
+- **Source Element:** Manager
+- **Target Element:** View Transaction History
+
+This structured format captures all the relationships present in the UML Use Case Diagram.
+
+==================================================
+
+==== Image: UCD080.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Borrower
+- **Target Element:** Browse Books
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Borrower
+- **Target Element:** Checkout Books
+
+### Relationship 3
+- **Type of Relationship:** Association
+- **Source Element:** Borrower
+- **Target Element:** Return Books
+
+### Relationship 4
+- **Type of Relationship:** Association
+- **Source Element:** Borrower
+- **Target Element:** Update Catalog
+
+### Relationship 5
+- **Type of Relationship:** Association
+- **Source Element:** Librarian
+- **Target Element:** Update Catalog
+
+### Relationship 6
+- **Type of Relationship:** Association
+- **Source Element:** Procurement
+- **Target Element:** Checkout Books
+
+This structured format clearly outlines the relationships present in the diagram.
+
+==================================================
+
+==== Image: UCD086.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Pilot
+- **Target Element:** Turn on engine
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Pilot
+- **Target Element:** Fly plane
+
+### Relationship 3
+- **Type of Relationship:** Extend
+- **Source Element:** Fly plane
+- **Target Element:** Fly plane autopilot
+
+### Relationship 4
+- **Type of Relationship:** Association
+- **Source Element:** Autopilot
+- **Target Element:** Fly plane autopilot
+
+This structured format captures the relationships clearly and accurately.
+
+==================================================
+
+==== Image: UCD087.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Patient
+- **Target Element:** Book appointment
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Patient
+- **Target Element:** Cancel appointment
+
+### Relationship 3
+- **Type of Relationship:** Association
+- **Source Element:** Receptionist
+- **Target Element:** Book appointment
+
+### Relationship 4
+- **Type of Relationship:** Association
+- **Source Element:** Receptionist
+- **Target Element:** Cancel appointment
+
+This structured format clearly outlines the relationships present in the diagram.
+
+==================================================
+
+==== Image: UCD060.png ====
+Here are the identified relationships from the UML Use Case Diagram:
+
+### Relationship 1
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** Perform card transaction
+
+### Relationship 2
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** Process customer bill
+
+### Relationship 3
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** Reconcile transactions
+
+### Relationship 4
+- **Type of Relationship:** Association
+- **Source Element:** Customer
+- **Target Element:** Manage customer account
+
+### Relationship 5
+- **Type of Relationship:** Association
+- **Source Element:** Individual customer
+- **Target Element:** Manage customer account
+
+### Relationship 6
+- **Type of Relationship:** Association
+- **Source Element:** Corporate customer
+- **Target Element:** Manage customer account
+
+### Relationship 7
+- **Type of Relationship:** Association
+- **Source Element:** Perform card transaction
+- **Target Element:** Retail institution
+
+### Relationship 8
+- **Type of Relationship:** Association
+- **Source Element:** Manage customer account
+- **Target Element:** Sponsoring financial institution
+
+This structured format outlines the relationships clearly and accurately.
+
+==================================================
+

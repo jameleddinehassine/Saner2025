@@ -1,0 +1,2214 @@
+==== Image: UCD003.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - Type of Relationship: Association
+   - Source Element: Site user
+   - Target Element: Search docs - full text
+
+2. **Relationship 2**
+   - Type of Relationship: Association
+   - Source Element: Site user
+   - Target Element: Browse docs
+
+3. **Relationship 3**
+   - Type of Relationship: Association
+   - Source Element: Site user
+   - Target Element: View events
+
+4. **Relationship 4**
+   - Type of Relationship: Association
+   - Source Element: Site user
+   - Target Element: Log in
+
+5. **Relationship 5**
+   - Type of Relationship: Association
+   - Source Element: Site user
+   - Target Element: Upload docs
+
+6. **Relationship 6**
+   - Type of Relationship: Include
+   - Source Element: Search docs - full text
+   - Target Element: Download docs
+
+7. **Relationship 7**
+   - Type of Relationship: Include
+   - Source Element: Browse docs
+   - Target Element: Preview doc
+
+8. **Relationship 8**
+   - Type of Relationship: Extend
+   - Source Element: Upload docs
+   - Target Element: Manage folders
+
+9. **Relationship 9**
+   - Type of Relationship: Association
+   - Source Element: Webmaster
+   - Target Element: Post new event to homepage
+
+10. **Relationship 10**
+    - Type of Relationship: Association
+    - Source Element: Webmaster
+    - Target Element: Add user
+
+11. **Relationship 11**
+    - Type of Relationship: Extend
+    - Source Element: Add user
+    - Target Element: Add company
+
+==================================================
+
+==== Image: UCD005.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Traveler
+   - (c) Target Element: Check ticket availability
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Traveler
+   - (c) Target Element: Book ticket
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Traveler
+   - (c) Target Element: Cancel ticket
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Traveler
+   - (c) Target Element: Fill out personal information and travel details
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Traveler
+   - (c) Target Element: Pay fare amount
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Traveler
+   - (c) Target Element: Refund money
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Railway website
+   - (c) Target Element: Check ticket availability
+
+8. **Relationship 8**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Railway website
+   - (c) Target Element: Book ticket
+
+9. **Relationship 9**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Railway website
+   - (c) Target Element: Cancel ticket
+
+10. **Relationship 10**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Railway website
+    - (c) Target Element: Fill out personal information and travel details
+
+11. **Relationship 11**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Railway website
+    - (c) Target Element: Pay fare amount
+
+12. **Relationship 12**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Railway website
+    - (c) Target Element: Refund money
+
+13. **Relationship 13**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Clerk
+    - (c) Target Element: Cancel ticket
+
+14. **Relationship 14**
+    - (a) Type of Relationship: Include
+    - (b) Source Element: Book ticket
+    - (c) Target Element: Fill out personal information and travel details
+
+15. **Relationship 15**
+    - (a) Type of Relationship: Include
+    - (b) Source Element: Book ticket
+    - (c) Target Element: Pay fare amount
+
+16. **Relationship 16**
+    - (a) Type of Relationship: Include
+    - (b) Source Element: Cancel ticket
+    - (c) Target Element: Refund money
+
+==================================================
+
+==== Image: UCD007.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - Type of Relationship: Association
+   - Source Element: UNAUTHORISED USER
+   - Target Element: Browse Q&As
+
+2. **Relationship 2**
+   - Type of Relationship: Generalization
+   - Source Element: UNAUTHORISED USER
+   - Target Element: AUTHORISED USER
+
+3. **Relationship 3**
+   - Type of Relationship: Association
+   - Source Element: AUTHORISED USER
+   - Target Element: Post Question
+
+4. **Relationship 4**
+   - Type of Relationship: Association
+   - Source Element: AUTHORISED USER
+   - Target Element: Post Answer
+
+5. **Relationship 5**
+   - Type of Relationship: Association
+   - Source Element: AUTHORISED USER
+   - Target Element: Vote
+
+6. **Relationship 6**
+   - Type of Relationship: Association
+   - Source Element: AUTHORISED USER
+   - Target Element: Review
+
+7. **Relationship 7**
+   - Type of Relationship: Association
+   - Source Element: ADMIN
+   - Target Element: MANAGE USERS / USER ACCESS
+
+8. **Relationship 8**
+   - Type of Relationship: Include
+   - Source Element: Post Question
+   - Target Element: Check Credentials
+
+9. **Relationship 9**
+   - Type of Relationship: Include
+   - Source Element: Post Answer
+   - Target Element: Check Credentials
+
+10. **Relationship 10**
+    - Type of Relationship: Include
+    - Source Element: Vote
+    - Target Element: Check Credentials
+
+11. **Relationship 11**
+    - Type of Relationship: Include
+    - Source Element: Review
+    - Target Element: Check Credentials
+
+12. **Relationship 12**
+    - Type of Relationship: Association
+    - Source Element: Check Credentials
+    - Target Element: CREDENTIALS DATABASE
+
+==================================================
+
+==== Image: UCD008.png ====
+Here is the structured information about the relationships in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - Type of Relationship: Association
+   - Source Element: Student
+   - Target Element: Obtain Student Grant
+
+2. **Relationship 2**
+   - Type of Relationship: Association
+   - Source Element: Student
+   - Target Element: Obtain Student Loan
+
+3. **Relationship 3**
+   - Type of Relationship: Association
+   - Source Element: Student
+   - Target Element: Reimburse Course Fees
+
+4. **Relationship 4**
+   - Type of Relationship: Association
+   - Source Element: Student
+   - Target Element: Pay Fees
+
+5. **Relationship 5**
+   - Type of Relationship: Association
+   - Source Element: Student
+   - Target Element: Enroll in Seminar
+
+6. **Relationship 6**
+   - Type of Relationship: Association
+   - Source Element: Student
+   - Target Element: Drop Seminar
+
+7. **Relationship 7**
+   - Type of Relationship: Association
+   - Source Element: Student
+   - Target Element: Attend Seminar
+
+8. **Relationship 8**
+   - Type of Relationship: Association
+   - Source Element: Student
+   - Target Element: Finish Seminar
+
+9. **Relationship 9**
+   - Type of Relationship: Association
+   - Source Element: Student
+   - Target Element: Drop out of School
+
+10. **Relationship 10**
+    - Type of Relationship: Association
+    - Source Element: Student
+    - Target Element: Graduate From School
+
+11. **Relationship 11**
+    - Type of Relationship: Association
+    - Source Element: Financial Institution
+    - Target Element: Obtain Student Grant
+
+12. **Relationship 12**
+    - Type of Relationship: Association
+    - Source Element: Financial Institution
+    - Target Element: Obtain Student Loan
+
+13. **Relationship 13**
+    - Type of Relationship: Association
+    - Source Element: Financial Institution
+    - Target Element: Reimburse Course Fees
+
+14. **Relationship 14**
+    - Type of Relationship: Association
+    - Source Element: Grade Administrator
+    - Target Element: Input Student Marks
+
+15. **Relationship 15**
+    - Type of Relationship: Association
+    - Source Element: Instructor
+    - Target Element: Print Teaching Schedule
+
+16. **Relationship 16**
+    - Type of Relationship: Association
+    - Source Element: Instructor
+    - Target Element: Teach Seminar
+
+17. **Relationship 17**
+    - Type of Relationship: Association
+    - Source Element: Registrar
+    - Target Element: Distribute Transcripts
+
+18. **Relationship 18**
+    - Type of Relationship: Association
+    - Source Element: Registrar
+    - Target Element: Distribute Fee Schedule
+
+19. **Relationship 19**
+    - Type of Relationship: Association
+    - Source Element: Registrar
+    - Target Element: Distribute Schedules
+
+20. **Relationship 20**
+    - Type of Relationship: Association
+    - Source Element: Researcher
+    - Target Element: Apply for Grant
+
+21. **Relationship 21**
+    - Type of Relationship: Extend
+    - Source Element: Distribute Transcripts
+    - Target Element: Distribute Information to Students
+
+22. **Relationship 22**
+    - Type of Relationship: Extend
+    - Source Element: Distribute Fee Schedule
+    - Target Element: Distribute Information to Students
+
+23. **Relationship 23**
+    - Type of Relationship: Extend
+    - Source Element: Distribute Schedules
+    - Target Element: Distribute Information to Students
+
+24. **Relationship 24**
+    - Type of Relationship: Association
+    - Source Element: Post Office
+    - Target Element: Distribute Information to Students
+
+==================================================
+
+==== Image: UCD009.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer (Actor)
+   - **Target Element:** Search For Items (Use Case)
+
+2. **Relationship 2**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer (Actor)
+   - **Target Element:** Place Order (Use Case)
+
+3. **Relationship 3**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer (Actor)
+   - **Target Element:** Obtain Help (Use Case)
+
+4. **Relationship 4**
+   - **Type of Relationship:** Association
+   - **Source Element:** Place Order (Use Case)
+   - **Target Element:** Payment Processor (Actor)
+
+5. **Relationship 5**
+   - **Type of Relationship:** Association
+   - **Source Element:** Obtain Help (Use Case)
+   - **Target Element:** Customer Support (Actor)
+
+6. **Relationship 6**
+   - **Type of Relationship:** Association
+   - **Source Element:** Time (Actor)
+   - **Target Element:** Submit Taxes (Use Case)
+
+7. **Relationship 7**
+   - **Type of Relationship:** Association
+   - **Source Element:** Submit Taxes (Use Case)
+   - **Target Element:** Tax Authority (Actor)
+
+==================================================
+
+==== Image: UCD010.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Registrar
+   - (c) Target Element: Enroll in University
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Applicant
+   - (c) Target Element: Enroll in University
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Student
+   - (c) Target Element: Enroll in University
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: International Student
+   - (c) Target Element: Perform Security Check
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Include
+   - (b) Source Element: Enroll in University
+   - (c) Target Element: Enroll in Seminar
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Extend
+   - (b) Source Element: Perform Security Check
+   - (c) Target Element: Enroll in University
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Student
+   - (c) Target Element: Enroll Family Member in University
+
+==================================================
+
+==== Image: UCD011.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Driver
+   - (c) Target Element: Drive the vehicle
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Driver
+   - (c) Target Element: Park
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Extend
+   - (b) Source Element: Drive the vehicle
+   - (c) Target Element: Start the vehicle
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Include
+   - (b) Source Element: Drive the vehicle
+   - (c) Target Element: Accelerate
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Include
+   - (b) Source Element: Drive the vehicle
+   - (c) Target Element: Steer
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Include
+   - (b) Source Element: Drive the vehicle
+   - (c) Target Element: Brake
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Include
+   - (b) Source Element: Park
+   - (c) Target Element: Brake
+
+==================================================
+
+==== Image: UCD013.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - **Type of Relationship:** Association
+   - **Source Element:** Sales Clerk
+   - **Target Element:** Check Out Item
+
+2. **Relationship 2**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer
+   - **Target Element:** Check Out Item
+
+3. **Relationship 3**
+   - **Type of Relationship:** Association
+   - **Source Element:** Manager
+   - **Target Element:** Check Out Item
+
+4. **Relationship 4**
+   - **Type of Relationship:** Association
+   - **Source Element:** Inventory Clerk
+   - **Target Element:** Inventory Item
+
+5. **Relationship 5**
+   - **Type of Relationship:** Extend
+   - **Source Element:** Check Out "21" item
+   - **Target Element:** Check Out Item
+
+6. **Relationship 6**
+   - **Type of Relationship:** Include (Uses)
+   - **Source Element:** Check Out Item
+   - **Target Element:** Swipe UPC Reader
+
+7. **Relationship 7**
+   - **Type of Relationship:** Include (Uses)
+   - **Source Element:** Swipe UPC Reader
+   - **Target Element:** Inventory Item
+
+==================================================
+
+==== Image: UCD016.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Prospective Customer
+   - (c) Target Element: Create profile
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Prospective Customer
+   - (c) Target Element: View menu
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: View menu
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Place order
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Change order
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Service Representative
+   - (c) Target Element: Expedite order
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Service Representative
+   - (c) Target Element: View reports
+
+8. **Relationship 8**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Procurement Manager
+   - (c) Target Element: Get ingredient requests
+
+9. **Relationship 9**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Meal Manager
+   - (c) Target Element: View reports
+
+10. **Relationship 10**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Meal Manager
+    - (c) Target Element: Update prices
+
+11. **Relationship 11**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Meal Manager
+    - (c) Target Element: Change menu
+
+==================================================
+
+==== Image: UCD023.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Tour Guide
+   - (c) Target Element: Group Check-In
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Passenger
+   - (c) Target Element: Individual Check-In
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Include
+   - (b) Source Element: Group Check-In
+   - (c) Target Element: Individual Check-In
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Extend
+   - (b) Source Element: Individual Check-In
+   - (c) Target Element: Baggage Check-In
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Passenger
+   - (c) Target Element: Security Screening
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Generalization
+   - (b) Source Element: Tour Guide
+   - (c) Target Element: Passenger
+
+==================================================
+
+==== Image: UCD024.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Software Process Group
+   - (c) Target Element: Personalize Page
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Software Process Group
+   - (c) Target Element: Set member group
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Software Process Group
+   - (c) Target Element: Set Asset Protection
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Software Process Group
+   - (c) Target Element: Change Process Owner
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Generalization
+   - (b) Source Element: Process Owner
+   - (c) Target Element: Software Process Group
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: User
+   - (c) Target Element: Personalize Page
+
+==================================================
+
+==== Image: UCD027.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. 
+- **Type of Relationship:** Association
+- **Source Element:** ATM Technician
+- **Target Element:** Maintenance
+
+2. 
+- **Type of Relationship:** Association
+- **Source Element:** ATM Technician
+- **Target Element:** Repair
+
+3. 
+- **Type of Relationship:** Include
+- **Source Element:** Maintenance
+- **Target Element:** Replenishing
+
+4. 
+- **Type of Relationship:** Include
+- **Source Element:** Maintenance
+- **Target Element:** Upgrades
+
+5. 
+- **Type of Relationship:** Include
+- **Source Element:** Maintenance
+- **Target Element:** Diagnostics
+
+6. 
+- **Type of Relationship:** Include
+- **Source Element:** Repair
+- **Target Element:** Diagnostics
+
+==================================================
+
+==== Image: UCD029.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** Enroll
+
+2. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** BookSecretariatAppointment
+
+3. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** VisitSecretariatOffice
+
+4. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** ManageCourses
+
+5. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** RegisterToExams
+
+6. 
+- **Type of Relationship:** Include
+- **Source Element:** Enroll
+- **Target Element:** BookSecretariatAppointment
+
+7. 
+- **Type of Relationship:** Include
+- **Source Element:** BookSecretariatAppointment
+- **Target Element:** VisitSecretariatOffice
+
+8. 
+- **Type of Relationship:** Include
+- **Source Element:** ManageCourses
+- **Target Element:** RegisterToExams
+
+==================================================
+
+==== Image: UCD030.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer
+   - **Target Element:** Use Kiosk
+
+2. **Relationship 2**
+   - **Type of Relationship:** Association
+   - **Source Element:** Kiosk Engineer
+   - **Target Element:** Maintain Kiosk
+
+3. **Relationship 3**
+   - **Type of Relationship:** Association
+   - **Source Element:** Kiosk Representative
+   - **Target Element:** Use Kiosk
+
+4. **Relationship 4**
+   - **Type of Relationship:** Association
+   - **Source Element:** Kiosk Representative
+   - **Target Element:** Maintain Kiosk
+
+5. **Relationship 5**
+   - **Type of Relationship:** Association
+   - **Source Element:** Central Computer
+   - **Target Element:** Analysis
+
+These relationships describe how actors interact with the use cases in the system.
+
+==================================================
+
+==== Image: UCD032.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - Type of Relationship: Association
+   - Source Element: Player
+   - Target Element: Load game
+
+2. **Relationship 2**
+   - Type of Relationship: Association
+   - Source Element: Player
+   - Target Element: Initialize game
+
+3. **Relationship 3**
+   - Type of Relationship: Association
+   - Source Element: Player
+   - Target Element: Play game
+
+4. **Relationship 4**
+   - Type of Relationship: Association
+   - Source Element: Player
+   - Target Element: Change Options
+
+5. **Relationship 5**
+   - Type of Relationship: Association
+   - Source Element: Player
+   - Target Element: Set difficulty
+
+6. **Relationship 6**
+   - Type of Relationship: Association
+   - Source Element: Player
+   - Target Element: High Score
+
+7. **Relationship 7**
+   - Type of Relationship: Association
+   - Source Element: Player
+   - Target Element: Exit game
+
+8. **Relationship 8**
+   - Type of Relationship: Include
+   - Source Element: Initialize game
+   - Target Element: Play game
+
+9. **Relationship 9**
+   - Type of Relationship: Extend
+   - Source Element: Play game
+   - Target Element: Save game
+
+10. **Relationship 10**
+    - Type of Relationship: Extend
+    - Source Element: Play game
+    - Target Element: Exit game
+
+11. **Relationship 11**
+    - Type of Relationship: Extend
+    - Source Element: Play game
+    - Target Element: High Score
+
+12. **Relationship 12**
+    - Type of Relationship: Association
+    - Source Element: Persist
+    - Target Element: Save game
+
+13. **Relationship 13**
+    - Type of Relationship: Association
+    - Source Element: Persist
+    - Target Element: Load game
+
+==================================================
+
+==== Image: UCD033.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Open Account
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Deposit Funds
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Withdraw Funds
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Close Account
+
+==================================================
+
+==== Image: UCD034.png ====
+Here is the relationship identified in the UML Use Case Diagram:
+
+1. **Relationship:**
+   - **Type of Relationship:** Association
+   - **Source Element:** Actor1
+   - **Target Element:** Change User Specification
+
+==================================================
+
+==== Image: UCD035.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Actor1
+   - (c) Target Element: Change User Password
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Actor1
+   - (c) Target Element: Grant Access
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Actor1
+   - (c) Target Element: Deny Access
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Actor1
+   - (c) Target Element: Change User Last Name
+
+==================================================
+
+==== Image: UCD038.png ====
+1. **Relationship 1**
+   - **Type of Relationship:** Association
+   - **Source Element:** Student
+   - **Target Element:** Enrol in a subject
+
+2. **Relationship 2**
+   - **Type of Relationship:** Association
+   - **Source Element:** International Student
+   - **Target Element:** Enrol in a subject
+
+3. **Relationship 3**
+   - **Type of Relationship:** Include
+   - **Source Element:** Enrol in a subject
+   - **Target Element:** Enrol in a tutorial
+
+4. **Relationship 4**
+   - **Type of Relationship:** Generalization
+   - **Source Element:** International Student
+   - **Target Element:** Student
+
+==================================================
+
+==== Image: UCD043.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: User
+   - (c) Target Element: Place Phone Call
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: User
+   - (c) Target Element: Receive Phone Call
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: User
+   - (c) Target Element: Use Schedule
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Cellular network
+   - (c) Target Element: Place Phone Call
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Cellular network
+   - (c) Target Element: Receive Phone Call
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Cellular network
+   - (c) Target Element: Use Schedule
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Extend
+   - (b) Source Element: Place Conference Call
+   - (c) Target Element: Place Phone Call
+
+8. **Relationship 8**
+   - (a) Type of Relationship: Extend
+   - (b) Source Element: Receive additional Call
+   - (c) Target Element: Receive Phone Call
+
+==================================================
+
+==== Image: UCD046.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Unregistered User
+   - (c) Target Element: UC1 Post a comment
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Unregistered User
+   - (c) Target Element: UC2 Register
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Generalization
+   - (b) Source Element: Member
+   - (c) Target Element: Unregistered User
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Member
+   - (c) Target Element: UC3 Edit member profile
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Member
+   - (c) Target Element: UC4 Rate an article
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Generalization
+   - (b) Source Element: Redactor
+   - (c) Target Element: Member
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Redactor
+   - (c) Target Element: UC5 Write an article
+
+8. **Relationship 8**
+   - (a) Type of Relationship: Generalization
+   - (b) Source Element: Admin
+   - (c) Target Element: Redactor
+
+9. **Relationship 9**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Admin
+   - (c) Target Element: UC6 Approve an article
+
+10. **Relationship 10**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Admin
+    - (c) Target Element: UC8 Reject an article
+
+11. **Relationship 11**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Admin
+    - (c) Target Element: UC9 Manage article sections
+
+12. **Relationship 12**
+    - (a) Type of Relationship: Include
+    - (b) Source Element: UC6 Approve an article
+    - (c) Target Element: UC7 Manage article sections
+
+13. **Relationship 13**
+    - (a) Type of Relationship: Include
+    - (b) Source Element: UC8 Reject an article
+    - (c) Target Element: UC7 Manage article sections
+
+14. **Relationship 14**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Timer
+    - (c) Target Element: UC10 Send newsletter
+
+==================================================
+
+==== Image: UCD047.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Seller
+   - (c) Target Element: Make order
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Make order
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Seller of Computer
+   - (c) Target Element: Make order of computer
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer of Computer
+   - (c) Target Element: Make order of computer
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Include
+   - (b) Source Element: Make order
+   - (c) Target Element: Agree with payment terms
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Include
+   - (b) Source Element: Make order
+   - (c) Target Element: Provide customer with information
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Include
+   - (b) Source Element: Make order
+   - (c) Target Element: Order goods from inventory
+
+8. **Relationship 8**
+   - (a) Type of Relationship: Extend
+   - (b) Source Element: Make order
+   - (c) Target Element: Order goods catalogue
+
+9. **Relationship 9**
+   - (a) Type of Relationship: Generalization
+   - (b) Source Element: Seller
+   - (c) Target Element: Seller of Computer
+
+10. **Relationship 10**
+    - (a) Type of Relationship: Generalization
+    - (b) Source Element: Customer
+    - (c) Target Element: Customer of Computer
+
+These relationships describe how actors and use cases interact within the system.
+
+==================================================
+
+==== Image: UCD049.png ====
+Here is the structured information about the relationships in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - **Type of Relationship:** Association
+   - **Source Element:** Radio DJ
+   - **Target Element:** Select music
+
+2. **Relationship 2**
+   - **Type of Relationship:** Association
+   - **Source Element:** Listeners
+   - **Target Element:** Request music
+
+3. **Relationship 3**
+   - **Type of Relationship:** Extend
+   - **Source Element:** Request music
+   - **Target Element:** Select music
+
+4. **Relationship 4**
+   - **Type of Relationship:** Association
+   - **Source Element:** Radio DJ
+   - **Target Element:** Compose daily list (Radio system)
+
+5. **Relationship 5**
+   - **Type of Relationship:** Association
+   - **Source Element:** Radio DJ
+   - **Target Element:** Return music
+
+6. **Relationship 6**
+   - **Type of Relationship:** Association
+   - **Source Element:** Viewers
+   - **Target Element:** Interact with broadcast
+
+7. **Relationship 7**
+   - **Type of Relationship:** Association
+   - **Source Element:** Producer
+   - **Target Element:** Compose daily list (Television system)
+
+8. **Relationship 8**
+   - **Type of Relationship:** Association
+   - **Source Element:** Producer
+   - **Target Element:** Return media
+
+9. **Relationship 9**
+   - **Type of Relationship:** Association
+   - **Source Element:** Producer
+   - **Target Element:** Approve request
+
+10. **Relationship 10**
+    - **Type of Relationship:** Association
+    - **Source Element:** Data system
+    - **Target Element:** Compose daily list (Radio system)
+
+11. **Relationship 11**
+    - **Type of Relationship:** Association
+    - **Source Element:** Data system
+    - **Target Element:** Compose daily list (Television system)
+
+12. **Relationship 12**
+    - **Type of Relationship:** Association
+    - **Source Element:** Data system
+    - **Target Element:** Return music
+
+13. **Relationship 13**
+    - **Type of Relationship:** Association
+    - **Source Element:** Data system
+    - **Target Element:** Return media
+
+14. **Relationship 14**
+    - **Type of Relationship:** Association
+    - **Source Element:** Data system
+    - **Target Element:** Approve request
+
+15. **Relationship 15**
+    - **Type of Relationship:** Association
+    - **Source Element:** Notary
+    - **Target Element:** Approve request
+
+16. **Relationship 16**
+    - **Type of Relationship:** Association
+    - **Source Element:** Payment system
+    - **Target Element:** Data system
+
+17. **Relationship 17**
+    - **Type of Relationship:** Association
+    - **Source Element:** Administrator
+    - **Target Element:** Radio system
+
+18. **Relationship 18**
+    - **Type of Relationship:** Association
+    - **Source Element:** Administrator
+    - **Target Element:** Television system
+
+These relationships describe how actors interact with use cases and how use cases are related to each other within the system.
+
+==================================================
+
+==== Image: UCD050.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Open_account
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Withdraw_cash
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Clear_cheques
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Manager
+   - (c) Target Element: Get_report
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Loan Officer
+   - (c) Target Element: Loan_application
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Clerk
+   - (c) Target Element: Withdraw_cash
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Cash Dispenser
+   - (c) Target Element: Withdraw_cash
+
+These relationships describe how different actors interact with the use cases in the system.
+
+==================================================
+
+==== Image: UCD052.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - **Type of Relationship:** Association
+   - **Source Element:** Check-In Representative (Actor)
+   - **Target Element:** Check-In (Use Case)
+
+2. **Relationship 2**
+   - **Type of Relationship:** Association
+   - **Source Element:** Passenger (Actor)
+   - **Target Element:** Automated Check-In (Use Case)
+
+3. **Relationship 3**
+   - **Type of Relationship:** Association
+   - **Source Element:** Passenger (Actor)
+   - **Target Element:** Express Check-In (Use Case)
+
+4. **Relationship 4**
+   - **Type of Relationship:** Include
+   - **Source Element:** Check-In (Use Case)
+   - **Target Element:** Issuing Boarding Pass (Use Case)
+
+5. **Relationship 5**
+   - **Type of Relationship:** Include
+   - **Source Element:** Check-In (Use Case)
+   - **Target Element:** Automated Check-In (Use Case)
+
+6. **Relationship 6**
+   - **Type of Relationship:** Include
+   - **Source Element:** Check-In (Use Case)
+   - **Target Element:** Express Check-In (Use Case)
+
+==================================================
+
+==== Image: UCD053.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Actor - Check-In Representative
+   - (c) Target Element: Use Case - Check-In
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Actor - Passenger
+   - (c) Target Element: Use Case - Check-In
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Actor - Passenger
+   - (c) Target Element: Use Case - Automated Check-In
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Actor - Passenger
+   - (c) Target Element: Use Case - Express Check-In
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Actor - Passenger
+   - (c) Target Element: Use Case - Boarding
+
+These relationships illustrate how actors interact with various use cases within the "Passenger Service" system.
+
+==================================================
+
+==== Image: UCD054.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Check-In Representative
+   - (c) Target Element: Check-In
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Passenger
+   - (c) Target Element: Check-In
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Passenger
+   - (c) Target Element: Automated Check-In
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Passenger
+   - (c) Target Element: Express Check-In
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Passenger
+   - (c) Target Element: Boarding
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customs of Destination Airport
+   - (c) Target Element: Requesting Passenger List
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Baggage Transportation
+   - (c) Target Element: Requesting Passenger List
+
+==================================================
+
+==== Image: UCD060.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer
+   - **Target Element:** Perform card transaction
+
+2. **Relationship 2**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer
+   - **Target Element:** Process customer bill
+
+3. **Relationship 3**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer
+   - **Target Element:** Reconcile transactions
+
+4. **Relationship 4**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer
+   - **Target Element:** Manage customer account
+
+5. **Relationship 5**
+   - **Type of Relationship:** Generalization
+   - **Source Element:** Individual customer
+   - **Target Element:** Customer
+
+6. **Relationship 6**
+   - **Type of Relationship:** Generalization
+   - **Source Element:** Corporate customer
+   - **Target Element:** Customer
+
+7. **Relationship 7**
+   - **Type of Relationship:** Association
+   - **Source Element:** Retail institution
+   - **Target Element:** Perform card transaction
+
+8. **Relationship 8**
+   - **Type of Relationship:** Association
+   - **Source Element:** Sponsoring financial institution
+   - **Target Element:** Reconcile transactions
+
+9. **Relationship 9**
+   - **Type of Relationship:** Association
+   - **Source Element:** Sponsoring financial institution
+   - **Target Element:** Manage customer account
+
+These relationships describe how actors interact with the use cases within the Credit Card Validation System.
+
+==================================================
+
+==== Image: UCD069.png ====
+Here is the structured information about the relationships in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Event Organizer
+   - (c) Target Element: Create Event
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Event Organizer
+   - (c) Target Element: Edit Event
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Event Organizer
+   - (c) Target Element: Delete Event
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Event Organizer
+   - (c) Target Element: Generate Reports
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Event Organizer
+   - (c) Target Element: Send Notifications
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Administrator
+   - (c) Target Element: Create Event
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Administrator
+   - (c) Target Element: Edit Event
+
+8. **Relationship 8**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Administrator
+   - (c) Target Element: Delete Event
+
+9. **Relationship 9**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Administrator
+   - (c) Target Element: Generate Reports
+
+10. **Relationship 10**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Administrator
+    - (c) Target Element: Send Notifications
+
+11. **Relationship 11**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Attendee
+    - (c) Target Element: View Event Details
+
+12. **Relationship 12**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Attendee
+    - (c) Target Element: Register for Event
+
+13. **Relationship 13**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Attendee
+    - (c) Target Element: Cancel Registration
+
+14. **Relationship 14**
+    - (a) Type of Relationship: Include
+    - (b) Source Element: Register for Event
+    - (c) Target Element: Process Payment
+
+15. **Relationship 15**
+    - (a) Type of Relationship: Include
+    - (b) Source Element: Cancel Registration
+    - (c) Target Element: Process Payment
+
+==================================================
+
+==== Image: UCD071.png ====
+Here is the structured information about the relationships in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Inventory Manager
+   - (c) Target Element: Add Inventory Item
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Inventory Manager
+   - (c) Target Element: Edit Inventory Item
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Inventory Manager
+   - (c) Target Element: Delete Inventory Item
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Inventory Manager
+   - (c) Target Element: View Inventory Details
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Inventory Manager
+   - (c) Target Element: Search Inventory
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Inventory Manager
+   - (c) Target Element: Track Inventory Levels
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Inventory Manager
+   - (c) Target Element: Generate Inventory Reports
+
+8. **Relationship 8**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: System Administrator
+   - (c) Target Element: Manage Suppliers
+
+9. **Relationship 9**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: System Administrator
+   - (c) Target Element: Manage User Accounts
+
+10. **Relationship 10**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Warehouse Staff
+    - (c) Target Element: Add Inventory Item
+
+11. **Relationship 11**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Warehouse Staff
+    - (c) Target Element: Edit Inventory Item
+
+12. **Relationship 12**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Warehouse Staff
+    - (c) Target Element: Delete Inventory Item
+
+13. **Relationship 13**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Warehouse Staff
+    - (c) Target Element: View Inventory Details
+
+14. **Relationship 14**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Warehouse Staff
+    - (c) Target Element: Search Inventory
+
+15. **Relationship 15**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Warehouse Staff
+    - (c) Target Element: Track Inventory Levels
+
+16. **Relationship 16**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Sales Manager
+    - (c) Target Element: View Inventory Details
+
+17. **Relationship 17**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Sales Manager
+    - (c) Target Element: Search Inventory
+
+18. **Relationship 18**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Sales Manager
+    - (c) Target Element: Generate Inventory Reports
+
+These relationships reflect the interactions between actors and use cases in the system.
+
+==================================================
+
+==== Image: UCD073.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: View Account Status
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Open Account
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Update Customer Details
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: View Account Details
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Close Account
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Apply for Credit Card
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: Request Account Statement
+
+8. **Relationship 8**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer
+   - (c) Target Element: View Transaction History
+
+9. **Relationship 9**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Bank Employee
+   - (c) Target Element: View Account Status
+
+10. **Relationship 10**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Bank Employee
+    - (c) Target Element: Open Account
+
+11. **Relationship 11**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Bank Employee
+    - (c) Target Element: Update Customer Details
+
+12. **Relationship 12**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Bank Employee
+    - (c) Target Element: View Account Details
+
+13. **Relationship 13**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Bank Employee
+    - (c) Target Element: Close Account
+
+14. **Relationship 14**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Bank Employee
+    - (c) Target Element: Apply for Credit Card
+
+15. **Relationship 15**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Bank Employee
+    - (c) Target Element: Request Account Statement
+
+16. **Relationship 16**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Bank Employee
+    - (c) Target Element: View Transaction History
+
+17. **Relationship 17**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Manager
+    - (c) Target Element: View Account Status
+
+18. **Relationship 18**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Manager
+    - (c) Target Element: Open Account
+
+19. **Relationship 19**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Manager
+    - (c) Target Element: Update Customer Details
+
+20. **Relationship 20**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Manager
+    - (c) Target Element: View Account Details
+
+21. **Relationship 21**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Manager
+    - (c) Target Element: Close Account
+
+22. **Relationship 22**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Manager
+    - (c) Target Element: Apply for Credit Card
+
+23. **Relationship 23**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Manager
+    - (c) Target Element: Request Account Statement
+
+24. **Relationship 24**
+    - (a) Type of Relationship: Association
+    - (b) Source Element: Manager
+    - (c) Target Element: View Transaction History
+
+==================================================
+
+==== Image: UCD075.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. 
+- **Type of Relationship:** Association
+- **Source Element:** Patient
+- **Target Element:** Login
+
+2. 
+- **Type of Relationship:** Association
+- **Source Element:** Patient
+- **Target Element:** Register Appointment
+
+3. 
+- **Type of Relationship:** Association
+- **Source Element:** Patient
+- **Target Element:** Payment
+
+4. 
+- **Type of Relationship:** Association
+- **Source Element:** Receptionist
+- **Target Element:** Login
+
+5. 
+- **Type of Relationship:** Association
+- **Source Element:** Receptionist
+- **Target Element:** Register Appointment
+
+6. 
+- **Type of Relationship:** Association
+- **Source Element:** Receptionist
+- **Target Element:** Payment
+
+7. 
+- **Type of Relationship:** Association
+- **Source Element:** Admin
+- **Target Element:** Login
+
+8. 
+- **Type of Relationship:** Association
+- **Source Element:** Admin
+- **Target Element:** Add/Remove Doctor
+
+9. 
+- **Type of Relationship:** Association
+- **Source Element:** Admin
+- **Target Element:** Add/Remove Receptionist
+
+10. 
+- **Type of Relationship:** Association
+- **Source Element:** Doctor
+- **Target Element:** Login
+
+11. 
+- **Type of Relationship:** Association
+- **Source Element:** Doctor
+- **Target Element:** Prescribe Medicine
+
+12. 
+- **Type of Relationship:** Include
+- **Source Element:** Login
+- **Target Element:** Authenticate User
+
+13. 
+- **Type of Relationship:** Extend
+- **Source Element:** Login
+- **Target Element:** Error! Wrong Credential
+
+14. 
+- **Type of Relationship:** Include
+- **Source Element:** Payment
+- **Target Element:** Receive Chargers
+
+15. 
+- **Type of Relationship:** Include
+- **Source Element:** Register Appointment
+- **Target Element:** Receive Chargers
+
+==================================================
+
+==== Image: UCD079.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - **Type of Relationship:** Association
+   - **Source Element:** Passenger
+   - **Target Element:** Group Check-In
+
+2. **Relationship 2**
+   - **Type of Relationship:** Association
+   - **Source Element:** Passenger
+   - **Target Element:** Individual Check-In
+
+3. **Relationship 3**
+   - **Type of Relationship:** Association
+   - **Source Element:** Passenger
+   - **Target Element:** Security Screening
+
+4. **Relationship 4**
+   - **Type of Relationship:** Include
+   - **Source Element:** Group Check-In
+   - **Target Element:** Individual Check-In
+
+5. **Relationship 5**
+   - **Type of Relationship:** Extend
+   - **Source Element:** Individual Check-In
+   - **Target Element:** Baggage Check-In
+
+==================================================
+
+==== Image: UCD080.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Borrower
+   - (c) Target Element: Browse Books
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Borrower
+   - (c) Target Element: Checkout Books
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Borrower
+   - (c) Target Element: Return Books
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Librarian
+   - (c) Target Element: Update Catalog
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Procurement
+   - (c) Target Element: Update Catalog
+
+==================================================
+
+==== Image: UCD081.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer
+   - **Target Element:** Authenticate
+
+2. **Relationship 2**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer
+   - **Target Element:** Withdraw money
+
+3. **Relationship 3**
+   - **Type of Relationship:** Association
+   - **Source Element:** Customer of own bank
+   - **Target Element:** Deposit money
+
+4. **Relationship 4**
+   - **Type of Relationship:** Generalization
+   - **Source Element:** Customer of own bank
+   - **Target Element:** Customer
+
+5. **Relationship 5**
+   - **Type of Relationship:** Extend
+   - **Source Element:** Authenticate
+   - **Target Element:** Swipe card
+   - **Condition:** Three times incorrectly logged in
+
+6. **Relationship 6**
+   - **Type of Relationship:** Include
+   - **Source Element:** Authenticate
+   - **Target Element:** Account and PIN check
+
+==================================================
+
+==== Image: UCD082.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** Register
+
+2. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** Login
+
+3. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** Books' Search
+
+4. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** Buy Book
+
+5. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** Join Club
+
+6. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** Subscribe Monthly
+
+7. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** Find online courses
+
+8. 
+- **Type of Relationship:** Association
+- **Source Element:** Student
+- **Target Element:** Logout
+
+9. 
+- **Type of Relationship:** Association
+- **Source Element:** Teacher
+- **Target Element:** Register
+
+10. 
+- **Type of Relationship:** Association
+- **Source Element:** Teacher
+- **Target Element:** Login
+
+11. 
+- **Type of Relationship:** Association
+- **Source Element:** Teacher
+- **Target Element:** Offer Services
+
+12. 
+- **Type of Relationship:** Association
+- **Source Element:** Teacher
+- **Target Element:** Find Teacher
+
+13. 
+- **Type of Relationship:** Association
+- **Source Element:** Teacher
+- **Target Element:** See Students' Requests
+
+14. 
+- **Type of Relationship:** Association
+- **Source Element:** Teacher
+- **Target Element:** Logout
+
+==================================================
+
+==== Image: UCD086.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Pilot
+   - (c) Target Element: Turn on engine
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Pilot
+   - (c) Target Element: Fly plane
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Autopilot
+   - (c) Target Element: Fly plane autopilot
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Extend
+   - (b) Source Element: Fly plane
+   - (c) Target Element: Fly plane autopilot
+
+These relationships describe how the actors and use cases interact within the system.
+
+==================================================
+
+==== Image: UCD087.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Patient
+   - (c) Target Element: Book appointment
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Patient
+   - (c) Target Element: Cancel appointment
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Receptionist
+   - (c) Target Element: Book appointment
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Receptionist
+   - (c) Target Element: Cancel appointment
+
+==================================================
+
+==== Image: UCD088.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1:**
+   - **Type of Relationship:** Association
+   - **Source Element:** Shopper (Actor)
+   - **Target Element:** Pay for shopping (Use Case)
+
+2. **Relationship 2:**
+   - **Type of Relationship:** Include
+   - **Source Element:** Pay for shopping (Use Case)
+   - **Target Element:** Calculate shipping (Use Case)
+
+==================================================
+
+==== Image: UCD089.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1:**
+   - **Type of Relationship:** Association
+   - **Source Element:** Shopper (Actor)
+   - **Target Element:** Pay for shopping (Use Case)
+
+2. **Relationship 2:**
+   - **Type of Relationship:** Extend
+   - **Source Element:** Print receipt (Use Case)
+   - **Target Element:** Pay for shopping (Use Case)
+
+==================================================
+
+==== Image: UCD090.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. 
+- **Type of Relationship:** Association
+- **Source Element:** Patient
+- **Target Element:** Book appointment phone
+
+2. 
+- **Type of Relationship:** Association
+- **Source Element:** Patient
+- **Target Element:** Book appointment online
+
+3. 
+- **Type of Relationship:** Include
+- **Source Element:** Book appointment phone
+- **Target Element:** Book appointment
+
+4. 
+- **Type of Relationship:** Include
+- **Source Element:** Book appointment online
+- **Target Element:** Book appointment
+
+These relationships describe how the "Patient" interacts with the system and how the use cases are related to each other.
+
+==================================================
+
+==== Image: UCD091.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: User
+   - (c) Target Element: View lesson plan
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Generalization
+   - (b) Source Element: Teacher
+   - (c) Target Element: User
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Teacher
+   - (c) Target Element: Create lesson plan
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Teacher
+   - (c) Target Element: Teach lesson
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Student
+   - (c) Target Element: Attend lesson
+
+==================================================
+
+==== Image: UCD092.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer (Actor)
+   - (c) Target Element: Browse Book Catalogue (Use Case)
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer (Actor)
+   - (c) Target Element: Locate Book by Title or Author (Use Case)
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Customer (Actor)
+   - (c) Target Element: Request Unlisted Book (Use Case)
+
+==================================================
+
+==== Image: UCD093.png ====
+Here is the structured information for each relationship in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - Type of Relationship: Association
+   - Source Element: Client
+   - Target Element: Login
+
+2. **Relationship 2**
+   - Type of Relationship: Association
+   - Source Element: Client
+   - Target Element: Create Account
+
+3. **Relationship 3**
+   - Type of Relationship: Association
+   - Source Element: Client
+   - Target Element: View Account Details
+
+4. **Relationship 4**
+   - Type of Relationship: Association
+   - Source Element: Client
+   - Target Element: Close Account
+
+5. **Relationship 5**
+   - Type of Relationship: Association
+   - Source Element: Administrator
+   - Target Element: Delete User
+
+6. **Relationship 6**
+   - Type of Relationship: Include
+   - Source Element: Close Account
+   - Target Element: Delete User
+
+7. **Relationship 7**
+   - Type of Relationship: Generalization
+   - Source Element: Create Account
+   - Target Element: Create Free Account
+
+8. **Relationship 8**
+   - Type of Relationship: Generalization
+   - Source Element: Create Account
+   - Target Element: Create Premium Account
+
+9. **Relationship 9**
+   - Type of Relationship: Extend
+   - Source Element: View History
+   - Target Element: View Account Details
+
+10. **Relationship 10**
+    - Type of Relationship: Extend
+    - Source Element: View Open Orders
+    - Target Element: View Account Details
+
+These relationships describe how actors interact with use cases and how use cases are related to each other within the system.
+
+==================================================
+
+==== Image: UCD004.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Writer
+   - (c) Target Element: Draft a story
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Writer
+   - (c) Target Element: Review story
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Editor
+   - (c) Target Element: Review story
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Editor
+   - (c) Target Element: Suggest edits
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Editor
+   - (c) Target Element: Revise story
+
+6. **Relationship 6**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Proofreader
+   - (c) Target Element: Review story
+
+7. **Relationship 7**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Agent
+   - (c) Target Element: Sell story
+
+8. **Relationship 8**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Distributor
+   - (c) Target Element: Package story
+
+9. **Relationship 9**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Bookseller
+   - (c) Target Element: Deliver story to consumers
+
+==================================================
+
+==== Image: UCD006.png ====
+Here are the relationships identified in the UML Use Case Diagram:
+
+1. **Relationship 1**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Man with Chainsaw
+   - (c) Target Element: Halloween Costume
+
+2. **Relationship 2**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Man with Chainsaw
+   - (c) Target Element: Zombie Defense
+
+3. **Relationship 3**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Man with Chainsaw
+   - (c) Target Element: Psycho Killer
+
+4. **Relationship 4**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Man with Chainsaw
+   - (c) Target Element: Lumberjack
+
+5. **Relationship 5**
+   - (a) Type of Relationship: Association
+   - (b) Source Element: Man with Chainsaw
+   - (c) Target Element: Juggler
+
+==================================================
+
